@@ -1,2 +1,16 @@
-# Detector-de-Phishing-con-TF-IDF-Logistic-Regression
-Modelo NLP simple (TF-IDF + Regresión Logística) para clasificar textos como phishing o legítimos, con exportación del modelo para deploy.
+# 🛡️ Detector de Phishing (NLP)
+
+Clasificador básico de mensajes sospechosos usando:
+- TF-IDF
+- Regresión Logística (sklearn)
+
+Incluye dataset de ejemplo y guardado del modelo para producción.
+
+## ▶️ Funcionalidades
+- Entrenamiento TF-IDF + Logistic Regression
+- Predicción de probabilidad de phishing
+- Exportación del modelo `.joblib`
+
+## ▶️ Instalación
+```bash
+pip install -r requirements.txt
