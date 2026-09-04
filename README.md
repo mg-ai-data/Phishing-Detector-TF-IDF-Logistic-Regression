@@ -1,16 +1,20 @@
-# 🛡️ Detector de Phishing (NLP)
+# 🛡️ Phishing Detector with NLP
 
-Clasificador básico de mensajes sospechosos usando:
+A basic classifier for detecting suspicious messages using:
+
 - TF-IDF
-- Regresión Logística (sklearn)
+- Logistic Regression (`scikit-learn`)
 
-Incluye dataset de ejemplo y guardado del modelo para producción.
+The project includes a sample dataset and model serialization for deployment.
 
-## ▶️ Funcionalidades
-- Entrenamiento TF-IDF + Logistic Regression
-- Predicción de probabilidad de phishing
-- Exportación del modelo `.joblib`
+## 🚀 Features
 
-## ▶️ Instalación
+- TF-IDF + Logistic Regression training
+- Phishing probability prediction
+- Model export as `.joblib`
+- Sample dataset included
+
+## ▶️ Installation
+
 ```bash
 pip install -r requirements.txt
